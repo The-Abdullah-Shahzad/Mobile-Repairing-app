@@ -377,8 +377,8 @@ ul.menu {
 .btn.btn-dark {
   border-radius: 6px;
   background-color: transparent;
-  border: 2px solid var(--color-dark-heading);
-  color: var(--light-text-color);
+  border: 2px solid white;
+  color: white;
 }
 
 .btn-animated:hover,
@@ -386,6 +386,11 @@ ul.menu {
   background-color: transparent !important;
   border-radius: 6px;
   border: 2px solid transparent;
+}
+
+.btn-dark:hover {
+  background: var(--white-text-color);
+  color: #000000 !important;
 }
 
 .btn-dark-animated:after {
@@ -887,7 +892,7 @@ ul.menu {
 
 .banner-text-two:before,
 .banner-text-one:before {
-  background-color: rgba(238, 242, 246, 0.4);
+  /* background-color: rgba(238, 242, 246, 0.4); */
 }
 
 .banner-text-one:after {
